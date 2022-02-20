@@ -28,6 +28,46 @@
   color: #61dafb;
 }
 
+ .contain{
+   padding-top: 25px;
+   height: 89vh;
+   background-color:rgba(212, 212, 212, 0.986);
+   overflow: auto; 
+ }
+
+ .footer{
+   padding:1px;
+   background-color: black;
+   color: white;
+ }
+ .home{
+    
+   display:grid;
+   place-items: center;
+ }
+
+ .home h1{
+   text-decoration: underline rgb(255, 8, 8) 5px;
+ }
+
+  .home-p{
+    margin-top: 10px;
+    width: 80%; 
+    padding: 10px;
+    font-weight: bold;
+    box-shadow: 1px 1px 5px black;
+  } 
+.home-p:nth-child(2){
+  background-color: white; 
+}
+.home-p:nth-child(4){
+  background-color: rgb(245, 111, 111); 
+}
+.home-p:nth-child(1){
+  background-color: aqua;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
